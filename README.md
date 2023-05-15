@@ -14,5 +14,7 @@ add this dependency inside the client side
 ```
 spring.config.import= configserver:http://ip_address            
 spring.profiles.active: dev   #(This is the profile that u want to chose)
+spring.config.import=configserver:http://configserver.example.com?fail-fast=true&max-attempts=10&max-interval=1500&multiplier=1.2&initial-interval=1100"
+
 
 ```
