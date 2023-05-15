@@ -13,6 +13,6 @@ add this dependency inside the client side
 #### Inside the application.properties file of client
 ```
 spring.config.import= configserver:http://ip_address            
-spring.profiles.active: dev   (This is the profile that u want to chose)
+spring.profiles.active: dev   #(This is the profile that u want to chose)
 
 ```
