@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/test")
+@RefreshScope
 public class GreetingController {
   @Value("${docs.uri}")
   private String url;
