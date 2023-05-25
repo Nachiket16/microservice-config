@@ -1,6 +1,6 @@
 spring:
   application:
-    name: RATING-SERVICE
+    name: RATING-SERVICE-LOCAL
 eureka:
   instance:
     prefer-ip-address: true
