@@ -3,6 +3,13 @@ This repository is an example for config of client-server architecture.
 
 
 ## For client 
+In properties of pom.xml must add
+``` xml 
+<properties>
+		<java.version>17</java.version>
+		<spring-cloud.version>2022.0.2</spring-cloud.version>
+	</properties>
+```
 add this dependency inside the client side
 ``` xml
 <dependency>
